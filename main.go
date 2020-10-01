@@ -35,7 +35,7 @@ func parseLines(lines [][]string) []problem {
 func main() {
 
 	csvFilename := flag.String("csv", "problems.csv", "a .csv file in the format of 'question, answer'")
-	timeLimit := flag.Int("limit", 2, "the time limit for each question in seconds")
+	timeLimit := flag.Int("limit", 10, "the time limit for each question in seconds")
 
 	flag.Parse()
 
