@@ -1,10 +1,10 @@
 # A simple Quiz
-###Practice from Go course
+### Practice from Go course
 How to run it:
 
 `go build . && ./quiz`
 
-###My Quiz has 2 flags:
+### My Quiz has 2 flags:
 
 `-csv="problems.csv"` - path to the .csv file
 
